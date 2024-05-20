@@ -1,10 +1,10 @@
 import React from "react";
-import aboutImg from "../../Assect/dental-health-checkup.png";
+import aboutImg from "../../Assets/about us.png";
 
 function AboutUs() {
   return (
     <>
-      <div className="max-w-[1320px] md:py-[80] py-10 p-10 flex gap-8  mx-auto md:flex-row flex-col">
+      <div className="max-w-[1320px] md:py-[80]  items-center py-10 p-10 flex gap-8  mx-auto md:flex-row flex-col">
         <div className="basis-[49%] ">
           <img
             src={aboutImg}
@@ -26,7 +26,7 @@ function AboutUs() {
             When you focus on problems, you'll have more problems.{" "}
           </p>
 
-          <button className="btn font-semibold my-5 bg-green-500 h-[50px] w-[150px]  rounded">
+          <button className="btn font-semibold my-5 bg-green-500 h-[50px] w-[150px]  rounded-full">
             Learn More <i className="fa-solid fa-arrow-trend-down"></i>
           </button>
         </div>

@@ -15,7 +15,9 @@ function Header() {
       <header>
         <nav className="flex flex-wrap items-center justify-between  p-10 ">
           <div>
-            <h1 className="text-3xl font-semibold">57DentCare</h1>
+            <h1 className="text-[24px] font-semibold">
+              57<span className="text-green-500">D</span>entCare
+            </h1>
           </div>
           <div className="flex md:hidden">
             <button id="hamburger">
@@ -36,40 +38,40 @@ function Header() {
           <div className="toggle hidden w-full md:w-auto md:flex  row-gap-25 text-bold mt-5 md:mt-0  md:border-none">
             <a
               href="#"
-              className="block md:inline-block  hover:text-blue-500  text-2xl font-semibold px-3 py-3  text-center"
+              className="block md:inline-block  text-[20px] font-semibold px-3 py-3  text-center"
             >
               Home
             </a>
             <a
               href="#"
-              className="block md:inline-block  hover:text-blue-500 text-2xl font-semibold px-3 py-3 text-center"
+              className="block md:inline-block   text-[20px] font-semibold px-3 py-3 text-center"
             >
               Services
             </a>
             <a
               href="#"
-              className="block md:inline-block  hover:text-blue-500 px-3 py-3 text-2xl font-semibold text-center"
+              className="block md:inline-block   px-3 py-3 text-[20px] font-semibold text-center"
             >
               About Us
             </a>
             <a
               href="#"
-              className="block md:inline-block  hover:text-blue-500 px-3 py-3 text-2xl font-semibold  text-center "
+              className="block md:inline-block   px-3 py-3 text-[20px] font-semibold  text-center "
             >
               Way Choose Us
             </a>
             <a
               href="#"
-              className="block md:inline-block  hover:text-blue-500 px-3 py-3 text-2xl font-semibold  text-center "
+              className="block md:inline-block   px-3 py-3 text-[20px] font-semibold  text-center "
             >
               Testimonials
             </a>
           </div>
           <a
             href="#"
-            className="toggle hidden md:flex w-full md:w-auto px-4 py-2  sm:bg-green-300 text-center  text-2xl font-semibold  outline outline-2 outline-offset-2  rounded-3xl hover:bg-blue-500  md:rounded"
+            className="toggle hidden md:flex w-full md:w-auto px-4 py-2  border-green-500     font-semibold  border rounded-full "
           >
-            Contact Us
+            Contact Us <i className="fa-solid fa-arrow-trend-down "></i>
           </a>
         </nav>
       </header>

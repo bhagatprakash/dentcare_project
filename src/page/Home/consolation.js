@@ -1,19 +1,15 @@
 import React from "react";
-import consimage from "../../Assect/doctor-holding-medical.jpg";
+import consimage from "../../Assets/consulation.png";
 
 function Consolation() {
   return (
     <>
-      <div className="max-w-[1320px] md:py-20   py-10 p-10 flex flex-col md:flex-row mx-auto my-4">
+      <div className="max-w-[1320px] md:py-20    py-10 p-10 flex flex-col md:flex-row mx-auto my-4">
         <div className="basis-[50%] pb-5  shadow-2xl rounded-l-xl">
-          <img
-            src={consimage}
-            alt="about image"
-            className="w-full rounded-l-xl f-full"
-          />
+          <img src={consimage} alt="about image" className="w-full" />
         </div>
         <div className="basis-[50%] shadow-2xl bg-white rounded-r-xl">
-          <div className="mx-auto text-center my-5">
+          <div className="mx-auto text-center my-20">
             <h1 className="text-4xl font-semibold">Free Consultation</h1>
           </div>
           <div>
@@ -43,9 +39,10 @@ function Consolation() {
                 />
               </div>
 
-              <div className="text-center">
-                <button className="btn mt-4 text-xl h-[65px] w-full md:w-[580px] sm:w-[450px] rounded-[18px] font-semibold bg-green-400 lg:mt-6">
-                  Book Now <i className="fa-solid fa-arrow-trend-down"></i>
+              <div className="text-center md:mb-6 ">
+                <button className="btn mt-4  h-[65px] w-full md:w-[550px] sm:w-[176px]  rounded-full font-semibold bg-green-500 lg:mt-6">
+                  Get Free Consulation
+                  <i className="fa-solid fa-arrow-trend-down mx-3"></i>
                 </button>
               </div>
             </form>

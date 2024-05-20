@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "my-img": "url(./Assect/banner_img.png)",
+        "my-img": "url(./Assect/banner main image.png)",
         "car-image": "url(./Assect/card-1.png)",
       },
       colors: {
