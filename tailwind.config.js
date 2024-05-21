@@ -5,7 +5,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "my-img": "url(./Assets/banner main image.png)",
-        "car-image": "url(./Assect/card-1.png)",
+        "button-image": "url(./Assets/Subtract.png)",
+        carosalImage: "url(./Assets/slider baground.png)",
       },
       colors: {
         primary: "#ee0181",

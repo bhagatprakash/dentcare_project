@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { handleNenu } from "./script";
 
 function Header() {
   useEffect(() => {
@@ -13,7 +12,7 @@ function Header() {
   return (
     <>
       <header>
-        <nav className="flex flex-wrap items-center justify-between  p-10 ">
+        <nav className="flex flex-wrap items-center justify-between my-5 px-5 lg:px-20 ">
           <div>
             <h1 className="text-[24px] font-semibold">
               57<span className="text-green-500">D</span>entCare
@@ -69,9 +68,9 @@ function Header() {
           </div>
           <a
             href="#"
-            className="toggle hidden md:flex w-full md:w-auto px-4 py-2  border-green-500     font-semibold  border rounded-full "
+            className="toggle hidden md:flex w-full md:w-auto px-4 py-2 sm:text-center   text-center border-green-500   font-semibold  border rounded-full "
           >
-            Contact Us <i className="fa-solid fa-arrow-trend-down "></i>
+            Contact Us <i class="fa-solid fa-arrow-down mx-2 my-2"></i>
           </a>
         </nav>
       </header>

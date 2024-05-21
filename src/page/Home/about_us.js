@@ -15,19 +15,19 @@ function AboutUs() {
         <div className="basis-[49%] px-5">
           <p className="text-xl text-green-500 font-semibold">About Us</p>
           <h1 className="text-4xl  font-semibold">Patient-Centered Care</h1>
-          <p className="text-xl my-10">
+          <p className="text-lg my-10">
             "To succeed in your mission, you must have single-minded devotion to
             your goal." In pic: A boy holds a mask bearing the image of former
             Indian president APJ Abdul Kalam and a sapling during his death
             anniversary.
           </p>
           <h1 className="text-2xl  font-semibold">Our Mission</h1>
-          <p className="text-xl my-2">
+          <p className="text-lg my-2">
             When you focus on problems, you'll have more problems.{" "}
           </p>
 
           <button className="btn font-semibold my-5 bg-green-500 h-[50px] w-[150px]  rounded-full">
-            Learn More <i className="fa-solid fa-arrow-trend-down"></i>
+            Learn More <i class="fa-solid fa-arrow-down mx-2"></i>
           </button>
         </div>
       </div>

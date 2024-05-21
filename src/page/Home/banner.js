@@ -2,14 +2,14 @@ import React from "react";
 
 function Banner() {
   return (
-    <div className="container  max-w-[1100] px-8 mx-auto my-12 flex flex-col lg:flex-row ">
-      <div className="lg:w-[60%]">
-        <h1 className="text-[54px] lg:text-6xl font-semibold  my-10">
+    <div className="container  max-w-[1100] px-8 mx-auto my-10  md:my-2 flex flex-col lg:flex-row ">
+      <div className="lg:w-[60%] ">
+        <h1 className="text-[54px] lg:text-6xl font-semibold mt-5">
           Dental Excellence Starts Here: Your Guide to a Brighter, Healthier
           Smile
         </h1>
-        <button className="btn mt-4 h-[50px] w-[180px]   rounded-full font-semibold  bg-green-500 lg:mt-6">
-          Booking Now <i className="fa-solid fa-arrow-trend-down"></i>
+        <button className="btn mt-4 h-[50px] w-[180px]   rounded-full font-semibold  bg-button-image  bg-green-500 lg:mt-6">
+          Booking Now <i class="fa-solid fa-arrow-down mx-2"></i>
         </button>
       </div>
 
