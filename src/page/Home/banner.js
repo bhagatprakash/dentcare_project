@@ -2,9 +2,9 @@ import React from "react";
 
 function Banner() {
   return (
-    <div className="container  max-w-[1100] px-8 mx-auto my-10  md:my-2 flex flex-col lg:flex-row ">
+    <div className="container  max-w-[1100] px-8 mx-auto my-12 flex flex-col lg:flex-row ">
       <div className="lg:w-[60%] ">
-        <h1 className="text-[54px] lg:text-6xl font-semibold mt-5">
+        <h1 className="text-[54px] lg:text-6xl font-semibold  my-10">
           Dental Excellence Starts Here: Your Guide to a Brighter, Healthier
           Smile
         </h1>
