@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "my-img": "url(./Assets/banner main image.png)",
-        "button-image": "url(./Assets/Subtract.png)",
-        carosalImage: "url(./Assets/slider baground.png)",
+        "my-img": "url(./Assets/images/banner main image.png)",
+        "button-image": "url(./Assets/images/Subtract.png)",
+        carosalImage: "url(./Assets/images/slider baground.png)",
       },
       colors: {
         primary: "#ee0181",

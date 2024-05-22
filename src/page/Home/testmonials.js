@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { cardData } from "../../Assets/carosalData";
+import { cardData } from "../../Assets/constant/carosalData";
 
 function Testimonials() {
   const [activeIndex, setActiveIndex] = useState(0);

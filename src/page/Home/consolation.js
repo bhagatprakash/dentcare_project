@@ -1,5 +1,5 @@
 import React from "react";
-import consimage from "../../Assets/consulation.png";
+import consimage from "../../Assets/images/consulation.png";
 
 function Consolation() {
   return (

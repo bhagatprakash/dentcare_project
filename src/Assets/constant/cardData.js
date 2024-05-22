@@ -1,7 +1,7 @@
-import Headphone from "./Headphone.png";
-import StesCaop from "./stescoop.png";
-import Star from "./star.png";
-import Bed from "./bed.png";
+import Headphone from "../../Assets/images/Headphone.png";
+import StesCaop from "../../Assets/images/stescoop.png";
+import Star from "../../Assets/images/star.png";
+import Bed from "../../Assets/images/bed.png";
 
 export const cardData = [
   {
@@ -33,6 +33,3 @@ export const cardData = [
       "We offer flexible appoinment scheaduliing and free to accommodate your busy life",
   },
 ];
-
-
-

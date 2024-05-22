@@ -1,5 +1,6 @@
 import React from "react";
-import choseImge from "../../Assets/way chose us.png";
+import choseImge from "../../Assets/images/way chose us.png";
+import { cardData } from "../../Assets/constant/choose";
 
 function ChooseUs() {
   return (
@@ -10,52 +11,19 @@ function ChooseUs() {
           <h1 className="text-4xl my-3 font-semibold">Comprehensive</h1>
           <h1 className="text-4xl  font-semibold ">Dental Services</h1>
 
-          <p className="text-lg   my-9 ">
-            <i className="fa-solid fa-circle-check mx-2 text-green-500 "></i>
-            <span className=" text-2xl font-semibold">
-              Experienced Professionals :-
-            </span>
-            "To succeed in your mission, you must have single-minded devotion to
-            your goal."
-          </p>
-
-          <p className="text-lg my-5">
-            <i className="fa-solid fa-circle-check mx-2 text-green-500 "></i>
-            <span className=" text-2xl font-semibold">
-              State-of-the-Art Techanology :-
-            </span>
-            "To succeed in your mission, you must have single-minded devotion to
-            your goal."
-          </p>
-
-          <p className="text-lg my-5 ">
-            <i className="fa-solid fa-circle-check mx-2 text-green-500 "></i>
-            <span className=" text-2xl font-semibold">
-              Compassionate Care :-
-            </span>
-            "To succeed in your mission, you must have single-minded devotion to
-            your goal."
-          </p>
-
-          <p className="text-lg my-5 ">
-            <i className="fa-solid fa-circle-check mx-2 text-green-500 "></i>
-            <span className=" text-2xl font-semibold">Patient Eduction:-</span>
-            "To succeed in your mission, you must have single-minded devotion to
-            your goal."
-          </p>
-
-          <p className="text-lg my-3">
-            <i className="fa-solid fa-circle-check mx-2 text-green-500 "></i>
-            <span className=" text-2xl font-semibold">Convenient Hours :-</span>
-            "To succeed in your mission, you must have single-minded devotion to
-            your goal."
-          </p>
+          {cardData.map((item, index) => (
+            <p className="text-lg my-9" key={index}>
+              <i className="fa-solid fa-circle-check mx-2 text-green-500"></i>
+              <span className="text-2xl font-semibold">{item.title}</span>"
+              {item.content}"
+            </p>
+          ))}
         </div>
-        <div className="basis-[49%] ">
+        <div className="basis-[49%]">
           <img
             src={choseImge}
-            alt="about ima"
-            className="w-full  rounded-bl-[50px]  rounded-tr-[50px]"
+            alt="about image"
+            className="w-full rounded-bl-[50px] rounded-tr-[50px]"
           />
         </div>
       </div>

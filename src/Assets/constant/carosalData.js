@@ -1,6 +1,6 @@
-import profile from "./hospital-1.jpg";
-import profile1 from "./hospital-2.jpg";
-import profile2 from "./hospital-3.jpg";
+import profile from "../../Assets/images/hospital-1.jpg";
+import profile1 from "../../Assets/images/hospital-2.jpg";
+import profile2 from "../../Assets/images/hospital-3.jpg";
 
 export const cardData = [
   {

@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../../Assets/about us.png";
+import aboutImg from "../../Assets/images/about us.png";
 
 function AboutUs() {
   return (

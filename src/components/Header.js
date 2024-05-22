@@ -66,11 +66,12 @@ function Header() {
               Testimonials
             </a>
           </div>
+
           <a
             href="#"
-            className="toggle hidden md:flex w-full md:w-auto px-4 py-2 sm:text-center   text-center border-green-500   font-semibold  border rounded-full "
+            className="toggle hidden md:flex w-full md:w-auto px-4 py-2 sm:text-center text-center border-green-500 font-semibold border rounded-full items-center justify-center"
           >
-            Contact Us <i class="fa-solid fa-arrow-down mx-2 my-2"></i>
+            Contact Us <i class="fa-solid fa-arrow-down mx-2"></i>
           </a>
         </nav>
       </header>
